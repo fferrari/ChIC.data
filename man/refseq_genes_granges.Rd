@@ -4,18 +4,11 @@
 \name{refseq_genes_granges}
 \alias{refseq_genes_granges}
 \title{RefSeq gene annotation as GRanges.}
-\format{A GRanges object with:}
-\source{
-
-}
+\format{A GRanges object.}
 \usage{
-refseq_genes_granges
+data(refseq_genes_granges)
 }
 \description{
 RefSeq gene annotation data for the CHIC package in GRanges format.
 }
-\examples{
-
-
-}
-\keyword{datasets}
+\keyword{annotation}

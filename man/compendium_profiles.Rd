@@ -4,18 +4,68 @@
 \name{compendium_profiles}
 \alias{compendium_profiles}
 \title{Metagene profile data.}
-\format{A list of data frames with variables:}
-\source{
+\format{A list of data frames with the following variables.
 
+\itemize{
+   \item x
+   \item mean
+   \item sd
+   \item q1
+   \item q2
+   \item q3
+   \item q4
+   \item q5
+   \item sderr
+}}
+\source{
+\url{https://www.encodeproject.org/}
+
+\url{http://www.roadmapepigenomics.org/}
 }
 \usage{
-compendium_profiles
+data(compendium_profiles)
 }
 \description{
-Metagene profile data for the CHIC package.
+Metagene profile data for the CHIC package. It contains profile information
+on the following ChIP-seq datasets from ENCODE or Roadmap Epigenomics.
 }
-\examples{
-
-
+\details{
+\itemize{
+    \item H2A.Z
+    \item H2AFZ
+    \item H2AK5ac
+    \item H2AK9ac
+    \item H2BK120ac
+    \item H2BK12ac
+    \item H2BK15ac
+    \item H2BK20ac
+    \item H2BK5ac
+    \item H3K14ac
+    \item H3K18ac
+    \item H3K23ac
+    \item H3K23me2
+    \item H3K27ac
+    \item H3K27me3
+    \item H3K36me3
+    \item H3K4ac
+    \item H3K4me1
+    \item H3K4me2
+    \item H3K4me3
+    \item H3K56ac
+    \item H3K79me1
+    \item H3K79me2
+    \item H3K9ac
+    \item H3K9me1
+    \item H3K9me3
+    \item H3T11ph
+    \item H4K12ac
+    \item H4K20me1
+    \item H4K5ac
+    \item H4K8ac
+    \item H4K91ac
+    \item POLR2A
+    \item POLR2AphosphoS2
+    \item POLR2AphosphoS5
 }
-\keyword{datasets}
+}
+\keyword{metagene}

@@ -4,19 +4,12 @@
 \name{refseq_genes_tssregion_granges}
 \alias{refseq_genes_tssregion_granges}
 \title{RefSeq gene transcription start site regions as GRanges.}
-\format{A GRanges object with:}
-\source{
-
-}
+\format{A GRanges object.}
 \usage{
-refseq_genes_tssregion_granges
+data(refseq_genes_tssregion_granges)
 }
 \description{
 RefSeq gene transcription start site regions for the CHIC package in GRanges
-format.
+format. Transcription start site regions are defined as ...
 }
-\examples{
-
-
-}
-\keyword{datasets}
+\keyword{annotation}

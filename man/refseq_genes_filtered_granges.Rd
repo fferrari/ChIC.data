@@ -4,19 +4,12 @@
 \name{refseq_genes_filtered_granges}
 \alias{refseq_genes_filtered_granges}
 \title{Filtered RefSeq gene annotation as GRanges.}
-\format{A GRanges object with:}
-\source{
-
-}
+\format{A GRanges object.}
 \usage{
-refseq_genes_filtered_granges
+data(refseq_genes_filtered_granges)
 }
 \description{
 RefSeq gene annotation data for the CHIC package in GRanges format, filtered
 by ...
 }
-\examples{
-
-
-}
-\keyword{datasets}
+\keyword{annotation}

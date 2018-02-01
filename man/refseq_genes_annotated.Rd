@@ -4,18 +4,30 @@
 \name{refseq_genes_annotated}
 \alias{refseq_genes_annotated}
 \title{RefSeq gene annotation.}
-\format{A data frame with variables:}
+\format{A data frame with the following variables.
+
+\itemize{
+   \item name
+   \item chrom
+   \item strand
+   \item txStart
+   \item txEnd
+   \item cdsStart
+   \item cdsEnd
+   \item cdsStartStat
+   \item cdsEndStat
+   \item X.name
+   \item product
+   \item protAcc
+   \item locusLinkId
+}}
 \source{
 
 }
 \usage{
-refseq_genes_annotated
+data(refseq_genes_annotated)
 }
 \description{
 RefSeq gene annotation data for the CHIC package.
 }
-\examples{
-
-
-}
-\keyword{datasets}
+\keyword{annotation}
