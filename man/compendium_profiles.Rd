@@ -3,7 +3,7 @@
 \docType{data}
 \name{compendium_profiles}
 \alias{compendium_profiles}
-\title{Metagene profile data.}
+\title{Metagene profile data}
 \format{A list of data frames with the following variables.
 
 \itemize{

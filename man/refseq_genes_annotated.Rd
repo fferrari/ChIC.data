@@ -3,7 +3,7 @@
 \docType{data}
 \name{refseq_genes_annotated}
 \alias{refseq_genes_annotated}
-\title{RefSeq gene annotation.}
+\title{RefSeq gene annotation}
 \format{A data frame with the following variables.
 
 \itemize{

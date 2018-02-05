@@ -3,7 +3,7 @@
 \docType{data}
 \name{refseq_genes_tssregion_granges}
 \alias{refseq_genes_tssregion_granges}
-\title{RefSeq gene transcription start site regions as GRanges.}
+\title{RefSeq gene transcription start site regions as GRanges}
 \format{A GRanges object.}
 \usage{
 data(refseq_genes_tssregion_granges)

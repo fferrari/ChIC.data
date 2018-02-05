@@ -3,7 +3,7 @@
 \docType{data}
 \name{refseq_genes_filtered_granges}
 \alias{refseq_genes_filtered_granges}
-\title{Filtered RefSeq gene annotation as GRanges.}
+\title{Filtered RefSeq gene annotation as GRanges}
 \format{A GRanges object.}
 \usage{
 data(refseq_genes_filtered_granges)
