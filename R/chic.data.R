@@ -1,4 +1,39 @@
-#' Metagene profile data.
+#' Histone mark compendium
+#'
+#' Histone mark ChIP-seq compendium for the CHIC package.
+#'
+#' @docType data
+#'
+#' @keywords histone
+#'
+#' @usage data(compendium_db)
+#'
+#' @format A data frame with 366 variables to describe each ENCODE or Roadmap
+#' experiment.
+#'
+#' @source
+#'
+#'
+"compendium_db"
+
+#' Transcription factor compendium
+#'
+#' Transcription factor ChIP-seq compendium for the CHIC package.
+#'
+#' @docType data
+#'
+#' @keywords tf
+#'
+#' @usage data(compendium_db_tf)
+#'
+#' @format A data frame with 366 variables to describe each ENCODE experiment.
+#'
+#' @source
+#'
+#'
+"compendium_db_tf"
+
+#' Metagene profile data
 #'
 #' Metagene profile data for the CHIC package. It contains profile information
 #' on the following ChIP-seq datasets from ENCODE or Roadmap Epigenomics.
@@ -67,7 +102,25 @@
 #'
 "compendium_profiles"
 
-#' RefSeq gene annotation.
+#' hg19 chromosome information
+#'
+#' hg19 chromosome information for the CHIC package.
+#'
+#' @docType data
+#'
+#' @keywords hg19
+#'
+#' @usage data(hg19_chrom_info)
+#'
+#' @format A named list of int vectors with 2 elements, the start and end
+#' position of all hg19 chromosomes.
+#'
+#' @source
+#'
+#'
+"hg19_chrom_info"
+
+#' RefSeq gene annotation
 #'
 #' RefSeq gene annotation data for the CHIC package.
 #'
@@ -100,7 +153,7 @@
 #'
 "refseq_genes_annotated"
 
-#' Filtered RefSeq gene annotation as GRanges.
+#' Filtered RefSeq gene annotation as GRanges
 #'
 #' RefSeq gene annotation data for the CHIC package in GRanges format, filtered
 #' by ...
@@ -116,7 +169,7 @@
 #'
 "refseq_genes_filtered_granges"
 
-#' RefSeq gene annotation as GRanges.
+#' RefSeq gene annotation as GRanges
 #'
 #' RefSeq gene annotation data for the CHIC package in GRanges format.
 #'
@@ -131,7 +184,7 @@
 #'
 "refseq_genes_granges"
 
-#' RefSeq gene transcription start site regions as GRanges.
+#' RefSeq gene transcription start site regions as GRanges
 #'
 #' RefSeq gene transcription start site regions for the CHIC package in GRanges
 #' format. Transcription start site regions are defined as ...
@@ -146,3 +199,46 @@
 #'
 #'
 "refseq_genes_tssregion_granges"
+
+#' Random forest models for ChIP-seq experiment classification
+#'
+#' Random forest models based on ENCODE and Roadmap data for ChIP-seq experiment
+#' classification using the CHIC package.
+#'
+#' @docType data
+#'
+#' @keywords classification
+#'
+#' @usage data(rf_models)
+#'
+#' @format A list of 7 random forest models.
+#'
+#' \itemize{
+#'    \item broadEncode
+#'    \item H3K9Encode
+#'    \item H3K27Encode
+#'    \item H3K36Encode
+#'    \item RNAPol2Encode
+#'    \item sharpEncode
+#'    \item TFmodel
+#' }
+#'
+#'
+"rf_models"
+
+#' Random forest model for transcription factor ChIP-seq experiment
+#' classification
+#'
+#' Random forest model based on ENCODE data for transcription factor ChIP-seq
+#' experiment classification using the CHIC package.
+#'
+#' @docType data
+#'
+#' @keywords classification
+#'
+#' @usage data(tf_model)
+#'
+#' @format A single random forest model.
+#'
+#'
+"tf_model"
