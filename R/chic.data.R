@@ -1,17 +1,21 @@
 #' Histone mark compendium
 #'
 #' Histone mark ChIP-seq compendium for the CHIC package.
+#' The compendium contains quality control metrics and metadata for 2329 histone mark samples 
+#' analysed from ENCODE and Roadmap. 
 #'
 #' @docType data
 #'
-#' @keywords histone
+#' @keywords histone marks
+#' @keywords quality control metrics
+#' @keywords compendium
 #'
 #' @usage data(compendium_db)
 #'
-#' @format A data frame with 366 variables to describe each ENCODE or Roadmap
-#' experiment.
+#' @format Data frame with 366 variables (quality control metrics, metadata) for each 
+#' analysed sample.
 #'
-#' @source
+#' @source 
 #'
 #'
 "compendium_db"
@@ -19,14 +23,20 @@
 #' Transcription factor compendium
 #'
 #' Transcription factor ChIP-seq compendium for the CHIC package.
+#' The compendium contains quality control metrics and metadata for 1427
+#' transcriptin factors analysed from ENCODE. 
+#'
 #'
 #' @docType data
 #'
 #' @keywords tf
+#' @keywords quality control metrics
+#' @keywords compendium
 #'
 #' @usage data(compendium_db_tf)
 #'
-#' @format A data frame with 366 variables to describe each ENCODE experiment.
+#' @format Data frame with 366 variables (quality control metrics, metadata) for each 
+#' analysed sample.
 #'
 #' @source
 #'
