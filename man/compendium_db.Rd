@@ -4,15 +4,22 @@
 \name{compendium_db}
 \alias{compendium_db}
 \title{Histone mark compendium}
-\format{A data frame with 366 variables to describe each ENCODE or Roadmap
-experiment.}
+\format{Data frame with 366 variables (quality control metrics, metadata) for each 
+analysed sample.}
 \source{
-
+XX
 }
 \usage{
 data(compendium_db)
 }
 \description{
 Histone mark ChIP-seq compendium for the CHIC package.
+The compendium contains quality control metrics and metadata for 2329 histone mark samples 
+analysed from ENCODE and Roadmap Epigenomics.
 }
+\keyword{compendium}
+\keyword{control}
 \keyword{histone}
+\keyword{marks}
+\keyword{metrics}
+\keyword{quality}

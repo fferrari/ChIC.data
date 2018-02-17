@@ -2,7 +2,7 @@
 #'
 #' Histone mark ChIP-seq compendium for the CHIC package.
 #' The compendium contains quality control metrics and metadata for 2329 histone mark samples 
-#' analysed from ENCODE and Roadmap. 
+#' analysed from ENCODE and Roadmap Epigenomics. 
 #'
 #' @docType data
 #'
@@ -15,7 +15,7 @@
 #' @format Data frame with 366 variables (quality control metrics, metadata) for each 
 #' analysed sample.
 #'
-#' @source 
+#' @source XX
 #'
 #'
 "compendium_db"
@@ -24,7 +24,7 @@
 #'
 #' Transcription factor ChIP-seq compendium for the CHIC package.
 #' The compendium contains quality control metrics and metadata for 1427
-#' transcriptin factors analysed from ENCODE. 
+#' transcription factors analysed from ENCODE. 
 #'
 #'
 #' @docType data
@@ -38,15 +38,15 @@
 #' @format Data frame with 366 variables (quality control metrics, metadata) for each 
 #' analysed sample.
 #'
-#' @source
+#' @source XX
 #'
 #'
 "compendium_db_tf"
 
 #' Metagene profile data
 #'
-#' Metagene profile data for the CHIC package. It contains profile information
-#' on the following ChIP-seq datasets from ENCODE or Roadmap Epigenomics.
+#' Compendium of averaged metagene profiles for the CHIC package. Contains averaged metagene profiles 
+#' for following ChIP-seq datasets from ENCODE and Roadmap Epigenomics.
 #'
 #' \itemize{
 #'     \item H2A.Z
@@ -88,26 +88,23 @@
 #'
 #' @docType data
 #'
-#' @keywords metagene
+#' @keywords metagene profiles
+#' @keywords compendium
 #'
 #' @usage data(compendium_profiles)
 #'
-#' @format A list of data frames with the following variables.
+#' @format A list of data frames with the coordinates of the 
+#' metagene profile of the respective chromatin mark.
 #'
 #' \itemize{
-#'    \item x
-#'    \item mean
-#'    \item sd
-#'    \item q1
-#'    \item q2
-#'    \item q3
-#'    \item q4
-#'    \item q5
-#'    \item sderr
+#'    \item x : genomic coordinates
+#'    \item mean : the mean of the signal intensity in the compendium
+#'    \item sd : the standard deviation of the signal intensity in the compendium
+#'    \item q1..q5 : being the respective quantile of the value distribution
+#'    \item sderr : standard error
 #' }
 #'
-#' @source \url{https://www.encodeproject.org/}
-#' @source \url{http://www.roadmapepigenomics.org/}
+#' @source XX
 #'
 #'
 "compendium_profiles"
@@ -125,7 +122,7 @@
 #' @format A named list of int vectors with 2 elements, the start and end
 #' position of all hg19 chromosomes.
 #'
-#' @source
+#' @source http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes
 #'
 #'
 "hg19_chrom_info"
@@ -133,6 +130,8 @@
 #' RefSeq gene annotation
 #'
 #' RefSeq gene annotation data for the CHIC package.
+#' Containing the genomic coordinates of all the annotated 
+#' genes.
 #'
 #' @docType data
 #'
@@ -158,7 +157,7 @@
 #'    \item locusLinkId
 #' }
 #'
-#' @source
+#' @source xx
 #'
 #'
 "refseq_genes_annotated"
@@ -166,20 +165,20 @@
 #' Filtered RefSeq gene annotation as GRanges
 #'
 #' RefSeq gene annotation data for the CHIC package in GRanges format, filtered
-#' by ...
+#' by the gene length and by overlaps.
 #'
 #' @docType data
 #'
 #' @keywords annotation
 #'
-#' @usage data(refseq_genes_filtered_granges)
+#' @usage data(hg19_refseq_genes_filtered_granges)
 #'
 #' @format A GRanges object.
 #'
 #'
-"refseq_genes_filtered_granges"
+"hg19_refseq_genes_filtered_granges"
 
-#' RefSeq gene annotation as GRanges
+#' RefSeq gene annotation converted in GRanges
 #'
 #' RefSeq gene annotation data for the CHIC package in GRanges format.
 #'
@@ -194,23 +193,7 @@
 #'
 "refseq_genes_granges"
 
-#' RefSeq gene transcription start site regions as GRanges
-#'
-#' RefSeq gene transcription start site regions for the CHIC package in GRanges
-#' format. Transcription start site regions are defined as ...
-#'
-#' @docType data
-#'
-#' @keywords annotation
-#'
-#' @usage data(refseq_genes_tssregion_granges)
-#'
-#' @format A GRanges object.
-#'
-#'
-"refseq_genes_tssregion_granges"
-
-#' Random forest models for ChIP-seq experiment classification
+#' Random forest models for chromatin marks ChIP-seq experiment classification 
 #'
 #' Random forest models based on ENCODE and Roadmap data for ChIP-seq experiment
 #' classification using the CHIC package.
@@ -221,34 +204,18 @@
 #'
 #' @usage data(rf_models)
 #'
-#' @format A list of 7 random forest models.
+#' @format A list of 7 random forest models for the different 
+#' chromatin marks and transcription factors.
 #'
 #' \itemize{
-#'    \item broadEncode
-#'    \item H3K9Encode
-#'    \item H3K27Encode
-#'    \item H3K36Encode
-#'    \item RNAPol2Encode
-#'    \item sharpEncode
-#'    \item TFmodel
+#'    \item broadEncode : model for broad binding marks
+#'    \item H3K9Encode : model for H3K9me3
+#'    \item H3K27Encode : model for H3K27me3
+#'    \item H3K36Encode : model for H3K36me3
+#'    \item RNAPol2Encode : model for RNAPol2
+#'    \item sharpEncode : model for sharp binding marks
+#'    \item TFmodel : model for transcription factors
 #' }
 #'
 #'
 "rf_models"
-
-#' Random forest model for transcription factor ChIP-seq experiment
-#' classification
-#'
-#' Random forest model based on ENCODE data for transcription factor ChIP-seq
-#' experiment classification using the CHIC package.
-#'
-#' @docType data
-#'
-#' @keywords classification
-#'
-#' @usage data(tf_model)
-#'
-#' @format A single random forest model.
-#'
-#'
-"tf_model"

@@ -7,7 +7,7 @@
 \format{A named list of int vectors with 2 elements, the start and end
 position of all hg19 chromosomes.}
 \source{
-
+http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes
 }
 \usage{
 data(hg19_chrom_info)

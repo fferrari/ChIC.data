@@ -4,14 +4,21 @@
 \name{compendium_db_tf}
 \alias{compendium_db_tf}
 \title{Transcription factor compendium}
-\format{A data frame with 366 variables to describe each ENCODE experiment.}
+\format{Data frame with 366 variables (quality control metrics, metadata) for each 
+analysed sample.}
 \source{
-
+XX
 }
 \usage{
 data(compendium_db_tf)
 }
 \description{
 Transcription factor ChIP-seq compendium for the CHIC package.
+The compendium contains quality control metrics and metadata for 1427
+transcription factors analysed from ENCODE.
 }
+\keyword{compendium}
+\keyword{control}
+\keyword{metrics}
+\keyword{quality}
 \keyword{tf}

@@ -4,30 +4,25 @@
 \name{compendium_profiles}
 \alias{compendium_profiles}
 \title{Metagene profile data}
-\format{A list of data frames with the following variables.
+\format{A list of data frames with the coordinates of the 
+metagene profile of the respective chromatin mark.
 
 \itemize{
-   \item x
-   \item mean
-   \item sd
-   \item q1
-   \item q2
-   \item q3
-   \item q4
-   \item q5
-   \item sderr
+   \item x : genomic coordinates
+   \item mean : the mean of the signal intensity in the compendium
+   \item sd : the standard deviation of the signal intensity in the compendium
+   \item q1..q5 : being the respective quantile of the value distribution
+   \item sderr : standard error
 }}
 \source{
-\url{https://www.encodeproject.org/}
-
-\url{http://www.roadmapepigenomics.org/}
+XX
 }
 \usage{
 data(compendium_profiles)
 }
 \description{
-Metagene profile data for the CHIC package. It contains profile information
-on the following ChIP-seq datasets from ENCODE or Roadmap Epigenomics.
+Compendium of averaged metagene profiles for the CHIC package. Contains averaged metagene profiles 
+for following ChIP-seq datasets from ENCODE and Roadmap Epigenomics.
 }
 \details{
 \itemize{
@@ -68,4 +63,6 @@ on the following ChIP-seq datasets from ENCODE or Roadmap Epigenomics.
     \item POLR2AphosphoS5
 }
 }
+\keyword{compendium}
 \keyword{metagene}
+\keyword{profiles}

@@ -22,12 +22,14 @@
    \item locusLinkId
 }}
 \source{
-
+xx
 }
 \usage{
 data(refseq_genes_annotated)
 }
 \description{
 RefSeq gene annotation data for the CHIC package.
+Containing the genomic coordinates of all the annotated 
+genes.
 }
 \keyword{annotation}
