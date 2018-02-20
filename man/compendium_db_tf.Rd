@@ -4,8 +4,8 @@
 \name{compendium_db_tf}
 \alias{compendium_db_tf}
 \title{Transcription factor compendium}
-\format{Data frame with 366 variables (quality control metrics, metadata) for each 
-analysed sample.}
+\format{Data frame with 366 variables (quality control metrics, metadata) 
+for each analysed sample.}
 \source{
 XX
 }

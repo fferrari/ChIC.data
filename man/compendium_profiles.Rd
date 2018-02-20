@@ -7,13 +7,12 @@
 \format{A list of data frames with the coordinates of the 
 metagene profile of the respective chromatin mark.
 
-\itemize{
-   \item x : genomic coordinates
-   \item mean : the mean of the signal intensity in the compendium
-   \item sd : the standard deviation of the signal intensity in the compendium
-   \item q1..q5 : being the respective quantile of the value distribution
-   \item sderr : standard error
-}}
+    x : genomic coordinates
+    mean : the mean of the signal intensity in the compendium
+    sd : the standard deviation of the signal intensity in the 
+    compendium
+    q1..q5 : being the respective quantile of the value distribution
+    sderr : standard error}
 \source{
 XX
 }
@@ -21,8 +20,9 @@ XX
 data(compendium_profiles)
 }
 \description{
-Compendium of averaged metagene profiles for the CHIC package. Contains averaged metagene profiles 
-for following ChIP-seq datasets from ENCODE and Roadmap Epigenomics.
+Compendium of averaged metagene profiles for the CHIC package. Contains 
+averaged metagene profiles for following ChIP-seq datasets from ENCODE 
+and Roadmap Epigenomics.
 }
 \details{
 \itemize{

@@ -7,19 +7,19 @@
 \format{A data frame with the following variables.
 
 \itemize{
-   \item name
-   \item chrom
-   \item strand
-   \item txStart
-   \item txEnd
-   \item cdsStart
-   \item cdsEnd
-   \item cdsStartStat
-   \item cdsEndStat
-   \item X.name
-   \item product
-   \item protAcc
-   \item locusLinkId
+    \item name
+    \item chrom
+    \item strand
+    \item txStart
+    \item txEnd
+    \item cdsStart
+    \item cdsEnd
+    \item cdsStartStat
+    \item cdsEndStat
+    \item X.name
+    \item product
+    \item protAcc
+    \item locusLinkId
 }}
 \source{
 xx

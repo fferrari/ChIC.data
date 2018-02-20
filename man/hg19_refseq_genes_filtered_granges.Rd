@@ -9,7 +9,7 @@
 data(hg19_refseq_genes_filtered_granges)
 }
 \description{
-RefSeq gene annotation data for the CHIC package in GRanges format, filtered
-by the gene length and by overlaps.
+RefSeq gene annotation data for the CHIC package in GRanges format, 
+filtered by the gene length and by overlaps.
 }
 \keyword{annotation}
