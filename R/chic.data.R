@@ -16,8 +16,7 @@
 #' analysed sample.
 #'
 #' @source XX
-#'
-#'
+#' 
 "compendium_db"
 
 #' Transcription factor compendium
@@ -39,7 +38,6 @@
 #' analysed sample.
 #'
 #' @source XX
-#'
 #'
 "compendium_db_tf"
 
@@ -106,7 +104,6 @@
 #'
 #' @source XX
 #'
-#'
 "compendium_profiles"
 
 #' hg19 chromosome information
@@ -123,7 +120,6 @@
 #' position of all hg19 chromosomes.
 #'
 #' @source http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes
-#'
 #'
 "hg19_chrom_info"
 
