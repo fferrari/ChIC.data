@@ -7,7 +7,7 @@ Authors@R: c(
 Maintainer: Carmen Maria Livi <carmen.livi@ifom.eu>
 Description: This package contains annotation and metagene profile data for the
     CHIC package.
-Depends: R (>= 3.5)
+Depends: R (>= 3.4)
 Imports:
     GenomicRanges (>= 1.22.4),
     caret (>= 6.0-78)
