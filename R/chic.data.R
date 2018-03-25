@@ -1,6 +1,6 @@
 #' Histone mark compendium
 #'
-#' Histone mark ChIP-seq compendium for the CHIC package.
+#' Histone mark ChIP-seq compendium for the ChIC package.
 #' The compendium contains quality control metrics and metadata for 2329 
 #' histone mark samples 
 #' analysed from ENCODE and Roadmap Epigenomics. 
@@ -22,7 +22,7 @@
 
 #' Transcription factor compendium
 #'
-#' Transcription factor ChIP-seq compendium for the CHIC package.
+#' Transcription factor ChIP-seq compendium for the ChIC package.
 #' The compendium contains quality control metrics and metadata for 1427
 #' transcription factors analysed from ENCODE. 
 #'
@@ -44,7 +44,7 @@
 
 #' Metagene profile data
 #'
-#' Compendium of averaged metagene profiles for the CHIC package. Contains 
+#' Compendium of averaged metagene profiles for the ChIC package. Contains 
 #' averaged metagene profiles for following ChIP-seq datasets from ENCODE 
 #' and Roadmap Epigenomics.
 #'
@@ -109,7 +109,7 @@
 
 #' hg19 chromosome information
 #'
-#' hg19 chromosome information for the CHIC package.
+#' hg19 chromosome information for the ChIC package.
 #'
 #' @docType data
 #'
@@ -127,7 +127,7 @@
 
 #' RefSeq gene annotation
 #'
-#' RefSeq gene annotation data for the CHIC package.
+#' RefSeq gene annotation data for the ChIC package.
 #' Containing the genomic coordinates of all the annotated 
 #' genes.
 #'
@@ -162,7 +162,7 @@
 
 #' Filtered RefSeq gene annotation as GRanges
 #'
-#' RefSeq gene annotation data for the CHIC package in GRanges format, 
+#' RefSeq gene annotation data for the ChIC package in GRanges format, 
 #' filtered by the gene length and by overlaps.
 #'
 #' @docType data
@@ -195,7 +195,7 @@
 #' experiment classification 
 #'
 #' Random forest models based on ENCODE and Roadmap data for ChIP-seq 
-#' experiment classification using the CHIC package.
+#' experiment classification using the ChIC package.
 #'
 #' @docType data
 #'
@@ -217,3 +217,73 @@
 #'}
 #'
 "rf_models"
+
+
+#' TSS Metagene profile dataframe
+#'
+#' Example data for manual and vignette. 
+#' Mete gene profile created with the
+#' CreateMetageneProfile() function using the ChIC package.
+#'
+#' @docType data
+#'
+#' @keywords TSS metagene profile
+#'
+#' @usage data(TSSProfile)
+#' @format A list of 2 containing the profile data for input 
+#' and chip. 
+#'
+#' \itemize{
+#'     \item chip : meta-gene data for chip
+#'     \item input : meta-gene data for input
+#'}
+#'
+"TSSProfile"
+
+
+#' GeneBody Metagene profile dataframe
+#'
+#' Example data for manual and vignette. 
+#' Mete gene profile created with the
+#' CreateMetageneProfile() function using the ChIC package.
+#'
+#' @docType data
+#'
+#' @keywords GeneBody metagene profile
+#'
+#' @usage data(geneBodyProfile)
+#' @format A list of 2 containing the profile data for input 
+#' and chip. 
+#'
+#' \itemize{
+#'     \item chip : meta-gene data for chip
+#'     \item input : meta-gene data for input
+#'}
+#'
+"geneBodyProfile"
+
+
+#' ChIP-seq bam file stored in a spp-object
+#'
+#' Example data for manual and vignette. 
+#' Bam file content created with the
+#' readBamFile() function using the ChIC package.
+#'
+#' @docType data
+#'
+#' @keywords bamfile
+#'
+#' @usage data(chipBam)
+#' @format list of 2 elements containing the reads and the 
+#' read quality. 
+#'
+#' \itemize{
+#'     \item tags : list of chromosomes containing 
+#' the start coordinate of each read (3'end) 
+#'     \item quality: list of chromosomes containing the 
+#' read quality of each read
+#'}
+#'
+"chipBam"
+
+
