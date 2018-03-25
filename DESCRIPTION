@@ -1,6 +1,6 @@
 Package: ChIC.data
 Title: ChIC package data
-Version: 0.99.0
+Version: 0.99.1
 Authors@R: c(
     person("Carmen Maria", "Livi", ,"carmen.livi@ifom.eu", c("aut", "cre", "dtc")),
     person("Endre", "Sebestyen", , "endre.sebestyen@ifom.eu", c("aut")))
