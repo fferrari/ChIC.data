@@ -28,7 +28,7 @@ xx
 data(refseq_genes_annotated)
 }
 \description{
-RefSeq gene annotation data for the CHIC package.
+RefSeq gene annotation data for the ChIC package.
 Containing the genomic coordinates of all the annotated 
 genes.
 }

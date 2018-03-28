@@ -22,6 +22,6 @@ data(rf_models)
 }
 \description{
 Random forest models based on ENCODE and Roadmap data for ChIP-seq 
-experiment classification using the CHIC package.
+experiment classification using the ChIC package.
 }
 \keyword{classification}

@@ -13,7 +13,7 @@ XX
 data(compendium_db)
 }
 \description{
-Histone mark ChIP-seq compendium for the CHIC package.
+Histone mark ChIP-seq compendium for the ChIC package.
 The compendium contains quality control metrics and metadata for 2329 
 histone mark samples 
 analysed from ENCODE and Roadmap Epigenomics.

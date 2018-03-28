@@ -20,7 +20,7 @@ XX
 data(compendium_profiles)
 }
 \description{
-Compendium of averaged metagene profiles for the CHIC package. Contains 
+Compendium of averaged metagene profiles for the ChIC package. Contains 
 averaged metagene profiles for following ChIP-seq datasets from ENCODE 
 and Roadmap Epigenomics.
 }

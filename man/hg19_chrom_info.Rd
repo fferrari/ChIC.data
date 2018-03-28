@@ -14,6 +14,6 @@ hg19.chrom.sizes
 data(hg19_chrom_info)
 }
 \description{
-hg19 chromosome information for the CHIC package.
+hg19 chromosome information for the ChIC package.
 }
 \keyword{hg19}

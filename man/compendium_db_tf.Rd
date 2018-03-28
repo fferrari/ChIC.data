@@ -13,7 +13,7 @@ XX
 data(compendium_db_tf)
 }
 \description{
-Transcription factor ChIP-seq compendium for the CHIC package.
+Transcription factor ChIP-seq compendium for the ChIC package.
 The compendium contains quality control metrics and metadata for 1427
 transcription factors analysed from ENCODE.
 }

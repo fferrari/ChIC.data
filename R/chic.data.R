@@ -218,72 +218,23 @@
 #'
 "rf_models"
 
-
-#' TSS Metagene profile dataframe
+#' EM values for example ChIP-seq data for Vignette
 #'
-#' Example data for manual and vignette. 
-#' Mete gene profile created with the
-#' CreateMetageneProfile() function using the ChIC package.
+#' Example data to be used in the vignette. 
 #'
 #' @docType data
 #'
-#' @keywords TSS metagene profile
+#' @keywords EM_scores
 #'
-#' @usage data(TSSProfile)
-#' @format A list of 2 containing the profile data for input 
-#' and chip. 
-#'
-#' \itemize{
-#'     \item chip : meta-gene data for chip
-#'     \item input : meta-gene data for input
-#'}
-#'
-"TSSProfile"
-
-
-#' GeneBody Metagene profile dataframe
-#'
-#' Example data for manual and vignette. 
-#' Mete gene profile created with the
-#' CreateMetageneProfile() function using the ChIC package.
-#'
-#' @docType data
-#'
-#' @keywords GeneBody metagene profile
-#'
-#' @usage data(geneBodyProfile)
-#' @format A list of 2 containing the profile data for input 
-#' and chip. 
+#' @usage data(EM_scores)
+#' @format list of 5 elements containing EM scores
 #'
 #' \itemize{
-#'     \item chip : meta-gene data for chip
-#'     \item input : meta-gene data for input
+#'     \item QCscores_ChIP : QCscores for ChIP
+#'     \item QCscores_Input: QCscores for Input
+#'     \item QCscores_binding: QCscores from peak calling
 #'}
 #'
-"geneBodyProfile"
-
-
-#' ChIP-seq bam file stored in a spp-object
-#'
-#' Example data for manual and vignette. 
-#' Bam file content created with the
-#' readBamFile() function using the ChIC package.
-#'
-#' @docType data
-#'
-#' @keywords bamfile
-#'
-#' @usage data(chipBam)
-#' @format list of 2 elements containing the reads and the 
-#' read quality. 
-#'
-#' \itemize{
-#'     \item tags : list of chromosomes containing 
-#' the start coordinate of each read (3'end) 
-#'     \item quality: list of chromosomes containing the 
-#' read quality of each read
-#'}
-#'
-"chipBam"
+"EM_scores"
 
 
