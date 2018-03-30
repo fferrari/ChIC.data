@@ -9,7 +9,6 @@ Description: This package contains annotation and metagene profile data for the
     ChIC package.
 Depends: R (>= 3.5)
 Imports:
-    GenomicRanges (>= 1.22.4),
     caret (>= 6.0-78)
 biocViews: ExperimentData, ENCODE
 License: GPL-2

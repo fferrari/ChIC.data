@@ -125,40 +125,7 @@
 #'
 "hg19_chrom_info"
 
-#' RefSeq gene annotation
-#'
-#' RefSeq gene annotation data for the ChIC package.
-#' Containing the genomic coordinates of all the annotated 
-#' genes.
-#'
-#' @docType data
-#' @import GenomicRanges
-#' @keywords annotation
-#'
-#' @usage data(refseq_genes_annotated)
-#'
-#' @format A data frame with the following variables.
-#'
-#' \itemize{
-#'     \item name
-#'     \item chrom
-#'     \item strand
-#'     \item txStart
-#'     \item txEnd
-#'     \item cdsStart
-#'     \item cdsEnd
-#'     \item cdsStartStat
-#'     \item cdsEndStat
-#'     \item X.name
-#'     \item product
-#'     \item protAcc
-#'     \item locusLinkId
-#' }
-#'
-#' @source xx
-#'
-#'
-"refseq_genes_annotated"
+
 
 #' Filtered RefSeq gene annotation as GRanges
 #'
@@ -170,26 +137,11 @@
 #' @keywords annotation
 #'
 #' @usage data(hg19_refseq_genes_filtered_granges)
-#'
 #' @format A GRanges object.
 #'
 #'
 "hg19_refseq_genes_filtered_granges"
 
-#' RefSeq gene annotation converted in GRanges
-#'
-#' RefSeq gene annotation data for the CHIC package in GRanges format.
-#'
-#' @docType data
-#'
-#' @keywords annotation
-#'
-#' @usage data(refseq_genes_granges)
-#' @import GenomicRanges
-#' @format A GRanges object.
-#'
-#'
-"refseq_genes_granges"
 
 #' Random forest models for chromatin marks ChIP-seq 
 #' experiment classification 
@@ -227,14 +179,65 @@
 #' @keywords EM_scores
 #'
 #' @usage data(EM_scores)
-#' @format list of 5 elements containing EM scores
+#' @format list of 4 elements containing EM scores
 #'
 #' \itemize{
 #'     \item QCscores_ChIP : QCscores for ChIP
-#'     \item QCscores_Input: QCscores for Input
 #'     \item QCscores_binding: QCscores from peak calling
+#'     \item TagDensityChip
+#'     \item TagDensityInput
 #'}
 #'
 "EM_scores"
 
+
+#' ChIP-seq bam file stored as spp tag-list
+#'
+#' Example data for manual and vignette. 
+#' Tag-list file created with the
+#' read.bam.tags() function from spp package.
+#' The original bam file has been dowloaded from ENCODE 
+#' (ID: ENCFF000BLL).
+#' 
+#' @docType data
+#'
+#' @keywords bamfile
+#'
+#' @usage data(chipBam)
+#' @format list of 2 elements containing the reads and the 
+#' read quality. 
+#'
+#' \itemize{
+#'     \item tags : list of chromosomes containing 
+#' the start coordinate of each read (3'end) 
+#'     \item quality: list of chromosomes containing the 
+#' read quality of each read
+#'}
+#'
+"chipBam"
+
+#' ChIP-seq bam file stored as spp tag-list
+#'
+#' Example data for manual and vignette. 
+#' Tag-list file created with the
+#' read.bam.tags() function from spp package.
+#' The original bam file has been dowloaded from ENCODE 
+#' (ID: ENCFF000BLL).
+#' 
+#' @docType data
+#'
+#' @keywords bamfile
+#'
+#' @usage data(chipBam)
+#' @format list of 2 elements containing the reads and the 
+#' read quality. 
+#'
+#' \itemize{
+#'     \item tags : list of chromosomes containing 
+#' the start coordinate of each read (3'end) 
+#'     \item quality: list of chromosomes containing the 
+#' read quality of each read
+#'}
+#'
+"inputBam"
 
