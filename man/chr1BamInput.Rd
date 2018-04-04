@@ -14,7 +14,7 @@ of each read aligned to chrom1 (input) (3'end)
 of each read
 }}
 \usage{
-data(Chr1BamInput)
+data(chr1BamInput)
 }
 \description{
 Example data for manual and vignette. 

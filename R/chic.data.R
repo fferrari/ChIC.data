@@ -229,7 +229,7 @@
 #'
 #' @keywords bamfile
 #'
-#' @usage data(Chr1BamInput)
+#' @usage data(chr1BamInput)
 #' @format list of 2 elements containing the reads and the 
 #' read quality of the inpu. 
 #'
