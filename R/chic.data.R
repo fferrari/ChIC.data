@@ -191,10 +191,10 @@
 "EM_scores"
 
 
-#' ChIP-seq bam file stored as spp tag-list
+#' ChIP-seq bam file stored as spp tag-list chr1
 #'
 #' Example data for manual and vignette. 
-#' Tag-list file created with the
+#' chr1 tag-list created with the
 #' read.bam.tags() function from spp package.
 #' The original bam file has been dowloaded from ENCODE 
 #' (ID: ENCFF000BLL).
@@ -203,41 +203,42 @@
 #'
 #' @keywords bamfile
 #'
-#' @usage data(chipBam)
+#' @usage data(chr1Bam)
 #' @format list of 2 elements containing the reads and the 
-#' read quality. 
+#' read quality of the ChIP. 
 #'
 #' \itemize{
-#'     \item tags : list of chromosomes containing 
-#' the start coordinate of each read (3'end) 
-#'     \item quality: list of chromosomes containing the 
-#' read quality of each read
+#'     \item tags : list containing the start coordinates 
+#' of each read aligned to chrom1 (ChIP) (3'end) 
+#'     \item quality: list containing the read quality 
+#' of each read
 #'}
 #'
-"chipBam"
+"chr1Bam"
 
 #' ChIP-seq bam file stored as spp tag-list
 #'
 #' Example data for manual and vignette. 
-#' Tag-list file created with the
-#' read.bam.tags() function from spp package.
+#' Tag-list created with the
+#' read.bam.tags() function from spp package for 
+#' the input data for chrom1.
 #' The original bam file has been dowloaded from ENCODE 
-#' (ID: ENCFF000BLL).
+#' (ID: ENCFF000BKA).
 #' 
 #' @docType data
 #'
 #' @keywords bamfile
 #'
-#' @usage data(chipBam)
+#' @usage data(Chr1BamInput)
 #' @format list of 2 elements containing the reads and the 
-#' read quality. 
+#' read quality of the inpu. 
 #'
 #' \itemize{
-#'     \item tags : list of chromosomes containing 
-#' the start coordinate of each read (3'end) 
-#'     \item quality: list of chromosomes containing the 
-#' read quality of each read
+#'     \item tags : list containing the start coordinates 
+#' of each read aligned to chrom1 (input) (3'end) 
+#'     \item quality: list containing the read quality 
+#' of each read
 #'}
 #'
-"inputBam"
+"chr1BamInput"
 
