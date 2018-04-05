@@ -185,10 +185,11 @@
 "crossvalues_Chip"
 
 
-#' ChIP-seq bam file stored as spp tag-list chr2
+#' ChIP-seq bam file stored as spp tag-list for 
+#' a subset of chromosomes for the chip
 #'
 #' Example data for manual and vignette. 
-#' chr1 tag-list created with the
+#' tag-list created with the
 #' read.bam.tags() function from spp package.
 #' The original bam file has been dowloaded from ENCODE 
 #' (ID: ENCFF000BFX).
@@ -197,25 +198,26 @@
 #'
 #' @keywords bamfile
 #'
-#' @usage data(chr2Bam)
+#' @usage data(chipSubset)
 #' @format list of 2 elements containing the reads and the 
 #' read quality of the ChIP. 
 #'
 #' \itemize{
 #'     \item tags : list containing the start coordinates 
-#' of each read aligned to chrom2 (ChIP) (3'end) 
+#' of each read aligned (ChIP) (3'end) 
 #'     \item quality: list containing the read quality 
 #' of each read
 #'}
 #'
-"chr2Bam"
+"chipSubset"
 
-#' ChIP-seq bam file stored as spp tag-list
+#' ChIP-seq bam file stored as spp tag-list for 
+#' a subset of chromosomes for the input
 #'
 #' Example data for manual and vignette. 
 #' Tag-list created with the
 #' read.bam.tags() function from spp package for 
-#' the input data for chrom2.
+#' the input data.
 #' The original bam file has been dowloaded from ENCODE 
 #' (ID: ENCFF000BDQ).
 #' 
@@ -223,16 +225,16 @@
 #'
 #' @keywords bamfile
 #'
-#' @usage data(chr2BamInput)
+#' @usage data(inputSubset)
 #' @format list of 2 elements containing the reads and the 
 #' read quality of the input. 
 #'
 #' \itemize{
 #'     \item tags : list containing the start coordinates 
-#' of each read aligned to chrom2 (input) (3'end) 
+#' of each read aligned (input) (3'end) 
 #'     \item quality: list containing the read quality 
 #' of each read
 #'}
 #'
-"chr2BamInput"
+"inputSubset"
 
