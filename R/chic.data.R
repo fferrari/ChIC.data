@@ -170,75 +170,69 @@
 #'
 "rf_models"
 
-#' EM values for example ChIP-seq data for Vignette
+#' CrsosCorrelation values for example ChIP-seq data for Vignette
 #'
-#' Example data to be used in the vignette. 
+#' Example data to be used in the vignette for chrom2
 #'
 #' @docType data
 #'
-#' @keywords EM_scores
+#' @keywords crossvalues_Chip
 #'
-#' @usage data(EM_scores)
-#' @format list of 4 elements containing EM scores
+#' @usage data(crossvalues_Chip)
+#' @format list of 20 elements containing EM scores
 #'
-#' \itemize{
-#'     \item QCscores_ChIP : QCscores for ChIP
-#'     \item QCscores_binding: QCscores from peak calling
-#'     \item TagDensityChip
-#'     \item TagDensityInput
-#'}
 #'
-"EM_scores"
+"crossvalues_Chip"
 
 
-#' ChIP-seq bam file stored as spp tag-list chr1
+#' ChIP-seq bam file stored as spp tag-list chr2
 #'
 #' Example data for manual and vignette. 
 #' chr1 tag-list created with the
 #' read.bam.tags() function from spp package.
 #' The original bam file has been dowloaded from ENCODE 
-#' (ID: ENCFF000BLL).
+#' (ID: ENCFF000BFX).
 #' 
 #' @docType data
 #'
 #' @keywords bamfile
 #'
-#' @usage data(chr1Bam)
+#' @usage data(chr2Bam)
 #' @format list of 2 elements containing the reads and the 
 #' read quality of the ChIP. 
 #'
 #' \itemize{
 #'     \item tags : list containing the start coordinates 
-#' of each read aligned to chrom1 (ChIP) (3'end) 
+#' of each read aligned to chrom2 (ChIP) (3'end) 
 #'     \item quality: list containing the read quality 
 #' of each read
 #'}
 #'
-"chr1Bam"
+"chr2Bam"
 
 #' ChIP-seq bam file stored as spp tag-list
 #'
 #' Example data for manual and vignette. 
 #' Tag-list created with the
 #' read.bam.tags() function from spp package for 
-#' the input data for chrom1.
+#' the input data for chrom2.
 #' The original bam file has been dowloaded from ENCODE 
-#' (ID: ENCFF000BKA).
+#' (ID: ENCFF000BDQ).
 #' 
 #' @docType data
 #'
 #' @keywords bamfile
 #'
-#' @usage data(chr1BamInput)
+#' @usage data(chr2BamInput)
 #' @format list of 2 elements containing the reads and the 
-#' read quality of the inpu. 
+#' read quality of the input. 
 #'
 #' \itemize{
 #'     \item tags : list containing the start coordinates 
-#' of each read aligned to chrom1 (input) (3'end) 
+#' of each read aligned to chrom2 (input) (3'end) 
 #'     \item quality: list containing the read quality 
 #' of each read
 #'}
 #'
-"chr1BamInput"
+"chr2BamInput"
 
