@@ -3,7 +3,7 @@
 \docType{data}
 \name{compendium_profiles}
 \alias{compendium_profiles}
-\title{Metagene profile data}
+\title{Metagene profile data for chromatin marks}
 \format{A list of data frames with the coordinates of the 
 metagene profile of the respective chromatin mark.
 
@@ -63,6 +63,8 @@ and Roadmap Epigenomics.
     \item POLR2AphosphoS5
 }
 }
+\keyword{chromatin}
 \keyword{compendium}
+\keyword{marks}
 \keyword{metagene}
 \keyword{profiles}

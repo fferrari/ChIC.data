@@ -3,7 +3,7 @@
 \docType{data}
 \name{crossvalues_Chip}
 \alias{crossvalues_Chip}
-\title{CrsosCorrelation values for example ChIP-seq data for Vignette}
+\title{CrossCorrelation values for example ChIP-seq data for Vignette}
 \format{list of 20 elements containing EM scores}
 \usage{
 data(crossvalues_Chip)
