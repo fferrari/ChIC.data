@@ -43,60 +43,6 @@
 "compendium_db_tf"
 
 
-#' hg19 chromosome information
-#'
-#' hg19 chromosome information for the ChIC package.
-#'
-#' @docType data
-#'
-#' @keywords hg19
-#'
-#' @usage data(hg19_chrom_info)
-#'
-#' @format A named list of int vectors with 2 elements, the start and end
-#' position of all hg19 chromosomes.
-#'
-#' @source http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/
-#' hg19.chrom.sizes
-#'
-"hg19_chrom_info"
-
-
-
-#' Filtered RefSeq gene annotation as GRanges
-#'
-#' RefSeq gene annotation data for the ChIC package in GRanges format, 
-#' filtered by the gene length and by overlaps.
-#'
-#' @docType data
-#'
-#' @keywords annotation
-#'
-#' @usage data(hg19_refseq_genes_filtered_granges)
-#' @format A GRanges object.
-#'
-#'
-"hg19_refseq_genes_filtered_granges"
-
-#' mm9 chromosome information
-#'
-#' mm9 chromosome information for the ChIC package.
-#'
-#' @docType data
-#'
-#' @keywords mm9
-#'
-#' @usage data(mm9_chrom_info)
-#'
-#' @format A named list of int vectors with 2 elements, the start and end
-#' position of all mm9 chromosomes.
-#'
-#' @source http://hgdownload.cse.ucsc.edu/goldenPath/mm9/bigZips/
-#' mm9.chrom.sizes
-#'
-"mm9_chrom_info"
-
-
 #' List with definitions 
 #'
 #' List containing information about chromatin marks, transcription
@@ -122,23 +68,6 @@
 #'
 "classesDefList"
 
-
-
-
-#' Filtered RefSeq gene annotation as GRanges for mm9
-#'
-#' RefSeq gene annotation data for the ChIC package in GRanges format, 
-#' filtered by the gene length and by overlaps.
-#'
-#' @docType data
-#'
-#' @keywords annotation
-#'
-#' @usage data(mm9_refseq_genes_filtered_granges)
-#' @format A GRanges object.
-#'
-#'
-"mm9_refseq_genes_filtered_granges"
 
 #' Random forest models for chromatin marks ChIP-seq 
 #' experiment classification 
