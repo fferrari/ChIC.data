@@ -55,23 +55,23 @@
 "dm3_chrom_info"
 
 
-#' dm6 chromosome information
-#'
-#' dm6 chromosome information for the ChIC package.
-#'
-#' @docType data
-#'
-#' @keywords dm6
-#'
-#' @usage data(dm6_chrom_info)
-#'
-#' @format A named list of int vectors with 2 elements, the start and end
-#' position of all dm6 chromosomes.
-#'
-#' @source http://hgdownload.cse.ucsc.edu/goldenPath/dm6/database/
-#' chromInfo.txt.gz
-#'
-"dm6_chrom_info"
+# #' dm6 chromosome information
+# #'
+# #' dm6 chromosome information for the ChIC package.
+# #'
+# #' @docType data
+# #'
+# #' @keywords dm6
+# #'
+# #' @usage data(dm6_chrom_info)
+# #'
+# #' @format A named list of int vectors with 2 elements, the start and end
+# #' position of all dm6 chromosomes.
+# #'
+# #' @source http://hgdownload.cse.ucsc.edu/goldenPath/dm6/database/
+# #' chromInfo.txt.gz
+# #'
+# "dm6_chrom_info"
 
 
 
@@ -120,18 +120,18 @@
 #'
 "dm3_refseq_genes_filtered_granges"
 
-#' Filtered RefSeq gene annotation as GRanges for dm6
-#'
-#' RefSeq gene annotation data for the ChIC package in GRanges format, 
-#' filtered by the gene length and by overlaps.
-#'
-#' @docType data
-#'
-#' @keywords annotation
-#'
-#' @usage data(dm6_refseq_genes_filtered_granges)
-#' @format A GRanges object.
-#'
-#'
-"dm6_refseq_genes_filtered_granges"
+# #' Filtered RefSeq gene annotation as GRanges for dm6
+# #'
+# #' RefSeq gene annotation data for the ChIC package in GRanges format, 
+# #' filtered by the gene length and by overlaps.
+# #'
+# #' @docType data
+# #'
+# #' @keywords annotation
+# #'
+# #' @usage data(dm6_refseq_genes_filtered_granges)
+# #' @format A GRanges object.
+# #'
+# #'
+# "dm6_refseq_genes_filtered_granges"
 
