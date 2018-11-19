@@ -1,4 +1,3 @@
-
 #' hg19 chromosome information
 #'
 #' hg19 chromosome information for the ChIC package.
