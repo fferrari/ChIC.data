@@ -53,6 +53,43 @@
 #'
 "dm3_chrom_info"
 
+#' hg38 chromosome information
+#'
+#' hg38 chromosome information for the ChIC package.
+#'
+#' @docType data
+#'
+#' @keywords hg38
+#'
+#' @usage data(hg38_chrom_info)
+#'
+#' @format A named list of int vectors with 2 elements, the start and end
+#' position of all hg38 chromosomes.
+#'
+#' @source http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/
+#' hg38.chrom.sizes
+#'
+"hg38_chrom_info"
+
+
+#' mm10 chromosome information
+#'
+#' mm10 chromosome information for the ChIC package.
+#'
+#' @docType data
+#'
+#' @keywords mm10
+#'
+#' @usage data(mm10_chrom_info)
+#'
+#' @format A named list of int vectors with 2 elements, the start and end
+#' position of all mm10 chromosomes.
+#'
+#' @source http://hgdownload.cse.ucsc.edu/goldenPath/mm10/bigZips/
+#' mm10.chrom.sizes
+#'
+"mm10_chrom_info"
+
 
 # #' dm6 chromosome information
 # #'
@@ -134,3 +171,32 @@
 # #'
 # "dm6_refseq_genes_filtered_granges"
 
+#' Filtered RefSeq gene annotation as GRanges
+#'
+#' RefSeq gene annotation data for the ChIC package in GRanges format, 
+#' filtered by the gene length and by overlaps.
+#'
+#' @docType data
+#'
+#' @keywords annotation
+#'
+#' @usage data(hg38_refseq_genes_filtered_granges)
+#' @format A GRanges object.
+#'
+#'
+"hg38_refseq_genes_filtered_granges"
+
+#' Filtered RefSeq gene annotation as GRanges for mm10
+#'
+#' RefSeq gene annotation data for the ChIC package in GRanges format, 
+#' filtered by the gene length and by overlaps.
+#'
+#' @docType data
+#'
+#' @keywords annotation
+#'
+#' @usage data(mm10_refseq_genes_filtered_granges)
+#' @format A GRanges object.
+#'
+#'
+"mm10_refseq_genes_filtered_granges"
