@@ -81,6 +81,7 @@
 #'
 #' @usage data(rf_models)
 #' @import caret
+#' @import randomForest
 #' @format A list of 7 random forest models for the different 
 #' chromatin marks and transcription factors:
 #'
