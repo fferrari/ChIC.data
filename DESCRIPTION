@@ -1,13 +1,13 @@
 Package: ChIC.data
 Title: ChIC package data
-Version: 1.7.3
+Version: 1.7.4
 Authors@R: c(
     person("Carmen Maria", "Livi", ,"carmen.livi@ifom.eu", c("aut", "cre", "dtc")),
     person("Endre", "Sebestyen", , "endre.sebestyen@ifom.eu", c("aut")))
 Maintainer: Carmen Maria Livi <carmen.livi@ifom.eu>
 Description: This package contains annotation and metagene profile data for the
     ChIC package.
-Depends: R (>= 3.5), genomeIntervals
+Depends: R (>= 3.5), genomeIntervals, randomForest
 Imports:
     caret (>= 6.0-78)
 biocViews: ExperimentData, ENCODE
