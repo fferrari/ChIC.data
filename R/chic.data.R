@@ -1,5 +1,3 @@
-#' @import genomeIntervals
-
 #' Histone mark compendium
 #'
 #' Histone mark ChIP-seq compendium for the ChIC package.
