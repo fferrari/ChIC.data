@@ -6,6 +6,8 @@
 #'
 #' @keywords hg19
 #'
+#' @import genomeIntervals
+#'
 #' @usage data(hg19_chrom_info)
 #'
 #' @format A named list of int vectors with 2 elements, the start and end
@@ -23,6 +25,8 @@
 #' @docType data
 #'
 #' @keywords mm9
+#'
+#' @import genomeIntervals
 #'
 #' @usage data(mm9_chrom_info)
 #'
@@ -43,6 +47,8 @@
 #'
 #' @keywords dm3
 #'
+#' @import genomeIntervals
+#'
 #' @usage data(dm3_chrom_info)
 #'
 #' @format A named list of int vectors with 2 elements, the start and end
@@ -60,6 +66,8 @@
 #' @docType data
 #'
 #' @keywords hg38
+#'
+#' @import genomeIntervals
 #'
 #' @usage data(hg38_chrom_info)
 #'
@@ -79,6 +87,8 @@
 #' @docType data
 #'
 #' @keywords mm10
+#'
+#' @import genomeIntervals
 #'
 #' @usage data(mm10_chrom_info)
 #'
@@ -120,6 +130,8 @@
 #'
 #' @keywords annotation
 #'
+#' @import genomeIntervals
+#'
 #' @usage data(hg19_refseq_genes_filtered_granges)
 #' @format A GRanges object.
 #'
@@ -135,6 +147,8 @@
 #'
 #' @keywords annotation
 #'
+#' @import genomeIntervals
+#'
 #' @usage data(mm9_refseq_genes_filtered_granges)
 #' @format A GRanges object.
 #'
@@ -149,6 +163,8 @@
 #' @docType data
 #'
 #' @keywords annotation
+#'
+#' @import genomeIntervals
 #'
 #' @usage data(dm3_refseq_genes_filtered_granges)
 #' @format A GRanges object.
@@ -180,6 +196,8 @@
 #'
 #' @keywords annotation
 #'
+#' @import genomeIntervals
+#'
 #' @usage data(hg38_refseq_genes_filtered_granges)
 #' @format A GRanges object.
 #'
@@ -194,6 +212,8 @@
 #' @docType data
 #'
 #' @keywords annotation
+#'
+#' @import genomeIntervals
 #'
 #' @usage data(mm10_refseq_genes_filtered_granges)
 #' @format A GRanges object.
