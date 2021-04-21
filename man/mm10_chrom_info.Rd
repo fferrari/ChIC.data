@@ -4,8 +4,10 @@
 \name{mm10_chrom_info}
 \alias{mm10_chrom_info}
 \title{mm10 chromosome information}
-\format{A named list of int vectors with 2 elements, the start and end
-position of all mm10 chromosomes.}
+\format{
+A named list of int vectors with 2 elements, the start and end
+position of all mm10 chromosomes.
+}
 \source{
 http://hgdownload.cse.ucsc.edu/goldenPath/mm10/bigZips/
 mm10.chrom.sizes

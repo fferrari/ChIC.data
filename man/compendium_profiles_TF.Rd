@@ -4,7 +4,8 @@
 \name{compendium_profiles_TF}
 \alias{compendium_profiles_TF}
 \title{Metagene profile data for transcription factors}
-\format{A list of data frames with the coordinates of the 
+\format{
+A list of data frames with the coordinates of the 
 metagene profile of the respective transcription factor.
 
     x : genomic coordinates
@@ -12,7 +13,9 @@ metagene profile of the respective transcription factor.
     sd : the standard deviation of the signal intensity in the 
     compendium
     q1..q5 : being the respective quantile of the value distribution
-    sderr : standard error}
+    sderr : standard error
+   setSize : setsize analysed
+}
 \source{
 XX
 }

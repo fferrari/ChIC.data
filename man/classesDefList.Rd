@@ -4,7 +4,8 @@
 \name{classesDefList}
 \alias{classesDefList}
 \title{List with definitions}
-\format{A list of 5 containing a  vector with chromatin mark names, 
+\format{
+A list of 5, containing a vector with chromatin mark names, 
 TF names, the members of sharp binding marks, broad binding marks 
 and RNApol2
 
@@ -14,7 +15,8 @@ and RNApol2
     \item allBroad: vector  with broad binding marks
     \item RNAPol2 : RNApol2
     \item TF: vector with TF names
-}}
+}
+}
 \usage{
 data(classesDefList)
 }

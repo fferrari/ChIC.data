@@ -4,7 +4,9 @@
 \name{crossvalues_Chip}
 \alias{crossvalues_Chip}
 \title{CrossCorrelation values for example ChIP-seq data for Vignette}
-\format{list of 20 elements containing EM scores}
+\format{
+list of 20 elements containing EM scores
+}
 \usage{
 data(crossvalues_Chip)
 }
