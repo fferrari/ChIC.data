@@ -4,8 +4,10 @@
 \name{hg38_chrom_info}
 \alias{hg38_chrom_info}
 \title{hg38 chromosome information}
-\format{A named list of int vectors with 2 elements, the start and end
-position of all hg38 chromosomes.}
+\format{
+A named list of int vectors with 2 elements, the start and end
+position of all hg38 chromosomes.
+}
 \source{
 http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/
 hg38.chrom.sizes

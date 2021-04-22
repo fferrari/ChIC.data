@@ -5,18 +5,20 @@
 \alias{rf_models}
 \title{Random forest models for chromatin marks ChIP-seq 
 experiment classification}
-\format{A list of 7 random forest models for the different 
+\format{
+A list of 7 random forest models for the different 
 chromatin marks and transcription factors:
 
 \itemize{
-    \item broadEncode : model for broad binding marks
-    \item H3K9Encode : model for H3K9me3
-    \item H3K27Encode : model for H3K27me3
-    \item H3K36Encode : model for H3K36me3
-    \item RNAPol2Encode : model for RNAPol2
-    \item sharpEncode : model for sharp binding marks
-    \item TFmodel : model for transcription factors
-}}
+    \item Broad : model for broad binding marks
+    \item H3K9me3 : model for H3K9me3
+    \item H3K27me3 : model for H3K27me3
+    \item H3K36me3 : model for H3K36me3
+    \item RNAPol2 : model for RNAPol2
+    \item Sharp : model for sharp binding marks
+    \item TF : model for transcription factors
+}
+}
 \usage{
 data(rf_models)
 }
