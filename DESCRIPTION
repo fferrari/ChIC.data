@@ -1,6 +1,6 @@
 Package: ChIC.data
 Title: ChIC package data
-Version: 1.7.10
+Version: 1.7.11
 Authors@R: c(
     person("Carmen Maria", "Livi", ,"carmen.livi@ifom.eu", c("aut", "cre", "dtc")),
     person("Endre", "Sebestyen", , "endre.sebestyen@ifom.eu", c("aut")))
@@ -14,5 +14,6 @@ biocViews: ExperimentData, ENCODE
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: bzip2
 RoxygenNote: 7.1.1
 NeedsCompilation: no
