@@ -97,19 +97,19 @@
 #'
 "rf_models"
 
-#' CrossCorrelation values for example ChIP-seq data for Vignette
+#' Example results from the qualityScores_EM() function based on the example ChIP-seq data for the Vignette for ChIC package
 #'
-#' Example data to be used in the vignette for chrom2
+#' Example data to be used in the vignette for ChIC package
 #'
 #' @docType data
 #'
-#' @keywords crossvalues_Chip
+#' @keywords EM_Results
 #'
-#' @usage data(crossvalues_Chip)
-#' @format list of 20 elements containing EM scores
+#' @usage data(EM_Results)
+#' @format list containing EM scores and filtered reads
 #'
 #'
-"crossvalues_Chip"
+"EM_Results"
 
 
 #' ChIP-seq bam file stored as spp tag-list for 
