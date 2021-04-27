@@ -1,7 +1,7 @@
 #' Histone mark compendium
 #'
 #' Histone mark ChIP-seq compendium for the ChIC package.
-#' The compendium contains quality control metrics and metadata for 2329 
+#' The compendium contains quality control metrics and metadata for 2204 
 #' histone mark samples 
 #' analysed from ENCODE and Roadmap Epigenomics. 
 #'
@@ -13,7 +13,7 @@
 #'
 #' @usage data(compendium_db)
 #'
-#' @format Data frame with 366 variables (quality control metrics, metadata)
+#' @format Data frame with 251 variables (quality control metrics, metadata)
 #' for each analysed sample.
 #'
 #' @source XX
@@ -23,7 +23,7 @@
 #' Transcription factor compendium
 #'
 #' Transcription factor ChIP-seq compendium for the ChIC package.
-#' The compendium contains quality control metrics and metadata for 1427
+#' The compendium contains quality control metrics and metadata for 1350
 #' transcription factors analysed from ENCODE. 
 #'
 #'
@@ -35,7 +35,7 @@
 #'
 #' @usage data(compendium_db_tf)
 #'
-#' @format Data frame with 366 variables (quality control metrics, metadata) 
+#' @format Data frame with 251 variables (quality control metrics, metadata) 
 #' for each analysed sample.
 #'
 #' @source XX
@@ -54,7 +54,7 @@
 #'
 #' @usage data(classesDefList)
 #' @import caret
-#' @format A list of 5 containing a  vector with chromatin mark names, 
+#' @format A list of 5, containing a vector with chromatin mark names, 
 #' TF names, the members of sharp binding marks, broad binding marks 
 #' and RNApol2
 #'
@@ -81,34 +81,35 @@
 #'
 #' @usage data(rf_models)
 #' @import caret
+#' @import randomForest
 #' @format A list of 7 random forest models for the different 
 #' chromatin marks and transcription factors:
 #'
 #' \itemize{
-#'     \item broadEncode : model for broad binding marks
-#'     \item H3K9Encode : model for H3K9me3
-#'     \item H3K27Encode : model for H3K27me3
-#'     \item H3K36Encode : model for H3K36me3
-#'     \item RNAPol2Encode : model for RNAPol2
-#'     \item sharpEncode : model for sharp binding marks
-#'     \item TFmodel : model for transcription factors
+#'     \item Broad : model for broad binding marks
+#'     \item H3K9me3 : model for H3K9me3
+#'     \item H3K27me3 : model for H3K27me3
+#'     \item H3K36me3 : model for H3K36me3
+#'     \item RNAPol2 : model for RNAPol2
+#'     \item Sharp : model for sharp binding marks
+#'     \item TF : model for transcription factors
 #'}
 #'
 "rf_models"
 
-#' CrossCorrelation values for example ChIP-seq data for Vignette
+#' Example results from the qualityScores_EM() function based on the example ChIP-seq data for the Vignette for ChIC package
 #'
-#' Example data to be used in the vignette for chrom2
+#' Example data to be used in the vignette for ChIC package
 #'
 #' @docType data
 #'
-#' @keywords crossvalues_Chip
+#' @keywords EM_Results
 #'
-#' @usage data(crossvalues_Chip)
-#' @format list of 20 elements containing EM scores
+#' @usage data(EM_Results)
+#' @format list containing EM scores and filtered reads
 #'
 #'
-"crossvalues_Chip"
+"EM_Results"
 
 
 #' ChIP-seq bam file stored as spp tag-list for 
@@ -230,7 +231,7 @@
 #'     compendium
 #'     q1..q5 : being the respective quantile of the value distribution
 #'     sderr : standard error
-#'
+#'	   setSize : setsize analysed
 #' @source XX
 #'
 "compendium_profiles"
@@ -385,6 +386,7 @@
 #'     compendium
 #'     q1..q5 : being the respective quantile of the value distribution
 #'     sderr : standard error
+#'	   setSize : setsize analysed
 #'
 #' @source XX
 #'

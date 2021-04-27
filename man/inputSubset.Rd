@@ -5,7 +5,8 @@
 \alias{inputSubset}
 \title{ChIP-seq bam file stored as spp tag-list for 
 a subset of chromosomes for the input}
-\format{list of 2 elements containing the reads and the 
+\format{
+list of 2 elements containing the reads and the 
 read quality of the input. 
 
 \itemize{
@@ -13,7 +14,8 @@ read quality of the input.
 of each read aligned (input) (3'end) 
     \item quality: list containing the read quality 
 of each read
-}}
+}
+}
 \usage{
 data(inputSubset)
 }

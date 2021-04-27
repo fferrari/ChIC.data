@@ -4,8 +4,10 @@
 \name{dm3_chrom_info}
 \alias{dm3_chrom_info}
 \title{dm3 chromosome information}
-\format{A named list of int vectors with 2 elements, the start and end
-position of all dm3 chromosomes.}
+\format{
+A named list of int vectors with 2 elements, the start and end
+position of all dm3 chromosomes.
+}
 \source{
 http://hgdownload.cse.ucsc.edu/goldenPath/dm3/database/
 chromInfo.txt.gz
