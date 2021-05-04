@@ -4,8 +4,10 @@
 \name{mm9_chrom_info}
 \alias{mm9_chrom_info}
 \title{mm9 chromosome information}
-\format{A named list of int vectors with 2 elements, the start and end
-position of all mm9 chromosomes.}
+\format{
+A named list of int vectors with 2 elements, the start and end
+position of all mm9 chromosomes.
+}
 \source{
 http://hgdownload.cse.ucsc.edu/goldenPath/mm9/bigZips/
 mm9.chrom.sizes

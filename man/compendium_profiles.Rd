@@ -4,7 +4,8 @@
 \name{compendium_profiles}
 \alias{compendium_profiles}
 \title{Metagene profile data for chromatin marks}
-\format{A list of data frames with the coordinates of the 
+\format{
+A list of data frames with the coordinates of the 
 metagene profile of the respective chromatin mark.
 
     x : genomic coordinates
@@ -12,7 +13,9 @@ metagene profile of the respective chromatin mark.
     sd : the standard deviation of the signal intensity in the 
     compendium
     q1..q5 : being the respective quantile of the value distribution
-    sderr : standard error}
+    sderr : standard error
+   setSize : setsize analysed
+}
 \source{
 XX
 }

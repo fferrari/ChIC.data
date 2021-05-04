@@ -5,7 +5,8 @@
 \alias{chipSubset}
 \title{ChIP-seq bam file stored as spp tag-list for 
 a subset of chromosomes for the chip}
-\format{list of 2 elements containing the reads and the 
+\format{
+list of 2 elements containing the reads and the 
 read quality of the ChIP. 
 
 \itemize{
@@ -13,7 +14,8 @@ read quality of the ChIP.
 of each read aligned (ChIP) (3'end) 
     \item quality: list containing the read quality 
 of each read
-}}
+}
+}
 \usage{
 data(chipSubset)
 }

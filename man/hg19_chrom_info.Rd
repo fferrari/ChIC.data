@@ -4,8 +4,10 @@
 \name{hg19_chrom_info}
 \alias{hg19_chrom_info}
 \title{hg19 chromosome information}
-\format{A named list of int vectors with 2 elements, the start and end
-position of all hg19 chromosomes.}
+\format{
+A named list of int vectors with 2 elements, the start and end
+position of all hg19 chromosomes.
+}
 \source{
 http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/
 hg19.chrom.sizes

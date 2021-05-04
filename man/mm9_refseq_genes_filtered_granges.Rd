@@ -4,7 +4,9 @@
 \name{mm9_refseq_genes_filtered_granges}
 \alias{mm9_refseq_genes_filtered_granges}
 \title{Filtered RefSeq gene annotation as GRanges for mm9}
-\format{A GRanges object.}
+\format{
+A GRanges object.
+}
 \usage{
 data(mm9_refseq_genes_filtered_granges)
 }
